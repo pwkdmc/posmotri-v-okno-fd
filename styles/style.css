@@ -117,7 +117,7 @@ ol {
 .content__video-card-thumbnail {
   height: 103px;
   min-width: 194px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .content__video-card-description-container {
@@ -188,7 +188,7 @@ ol {
   max-width: 196px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   overflow: hidden;
   font-size: 18px;
   font-weight: 400;
@@ -265,6 +265,7 @@ ol {
 }
 
 .button {
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0;
